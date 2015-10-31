@@ -1,0 +1,26 @@
+title:            Salogs By Yousri
+description:      A blog about Salogs
+url:              salogs.yousri.org
+signoff:          Yousri
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         HomePage
+    url:          http://www.yousri.org
+    external:     true
+  - name:         Email
+    url:          mailto:qingxianyan@gmail.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/Yousri
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
